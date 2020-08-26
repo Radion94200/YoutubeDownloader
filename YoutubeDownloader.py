@@ -27,3 +27,5 @@ link = StringVar()
 Entry(root, textvariable=link, width=40).pack(pady=10)
 Button(root, text="Download", command=download).pack()
 root.mainloop()
+
+print("toto")
